@@ -1,0 +1,22 @@
+.container  {
+  display: flex;
+  flex-direction: row;
+}
+
+.box_1 {
+  position: relative;
+  flex: 1;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box_2 {
+  position: relative;
+  flex: 2;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+

@@ -1,0 +1,1928 @@
+body {
+    background-color: #ffff;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    
+}
+
+section {
+    border-top: 0px;
+}
+
+
+
+/* style for navigation bar*/
+
+nav {
+    position: absolute;
+    width: 100%;
+    height: 27.22px;
+    left: 0;
+    top: 3.07vw;
+}
+
+header nav input {
+    display: none;
+}
+
+#menu-bar {
+    display: none;
+}
+
+i.fa.fa-bars {
+    display: none;
+    color: #ffff;
+}
+
+
+
+header nav ul {
+    position: absolute;
+    width: 60%;
+    height: 25px;
+    right: 0;
+    top: 0.21vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+header nav ul li:first-child {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+
+    /* identical to box height */
+    
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+header nav ul li:first-child:hover {
+    border-bottom: 1px solid #9A9A9A;
+    color: #9A9A9A;
+}
+
+header nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0px 2.2%;
+}
+header nav ul li:first-child {
+    margin-left: 0px;
+}
+
+header nav ul li:last-child {
+    margin-right: 0px;
+}
+header nav ul li:last-child {
+    margin-right: 0px;
+}
+header nav ul li a{
+    font-family: 'Futura PT';
+    font-style: normal;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.3vw;
+
+    color: #ffff;
+}
+
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 1.66vw;
+    left: -3%;
+    width: 28vw;
+    height: 9.56vw;
+    background-color: transparent;
+}
+
+.dropdown ul {
+    position: absolute;
+    top: 1.244vw;
+    left: 0;
+    width: 91%;
+    height: 89%;
+    padding-left: 7%;
+    background-color: #ffff;
+}
+
+.dropdown ul li {
+    margin: 0px;
+}
+
+
+.dropdown ul li:first-child {
+    margin-top: 1.7vw;
+    margin-bottom: 1.24vw;
+    list-style: none;
+}
+
+.dropdown ul li:first-child:hover {
+    border-bottom: 0;
+}
+
+.dropdown ul li a {
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.3vw;
+    line-height: 1.75vw;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #151515;
+}
+
+
+
+
+/* hover for menu bar*/ 
+.link:hover{
+    transition: 0.3s;
+    color: #9A9A9A;
+    border-bottom: 1px #9A9A9A solid;
+    
+}
+
+header nav ul li:first-child:focus-within > .dropdown,
+header nav ul li:first-child:hover > .dropdown {
+    display: block;
+    transition: 0.5s;
+} 
+
+/*                                                     */
+.logo {
+    position: absolute;
+    height: 1.83vw;
+    top: 3.07vw;
+    left: 7.6%;
+}
+
+
+.header {
+    background-image: linear-gradient(180deg, rgba(30,30,30,0.60) 60%, rgba(30,30,30,0.60) 60%),url("../images/photo.png") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    height: 56.29vw;
+}
+
+.name {
+    position: absolute;
+    width: 35.65vw;
+    height: 3.1vw;
+    left: 7%;
+    top: 20.27vw;
+}
+
+.main-text {
+    position: absolute;
+    width: 37.7%;
+    height: 11.71vw;
+    left: 7.5%;
+    top: 24.37vw;
+}
+
+.main-text h1 {
+/* design studio */
+    position: absolute;
+    top: 10px;
+    margin: 0px;
+
+    font-family: MostraNuovaW00-Regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 5.5vw;
+    line-height: 6.58vw;
+    /* identical to box height, or 117% */
+    
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+.main-text p {
+/* INTERIOR DESIGN & ARCHITECTURE */
+position: absolute;
+top: 9.15vw;
+margin: 0;
+
+font-family: MostraNuovaW00-Regular;
+font-style: normal;
+font-weight: 300;
+font-size: 2.19vw;
+line-height: 3.22vw;
+/* or 147% */
+
+color: #D7D7D7;
+}
+
+/*      white triangle in the bottom of header part    */
+
+.content-triangle{
+    width: 100%;
+    height:14%;
+}
+
+.triangle{ 
+    position: absolute;
+    top: 48.68vw;
+}
+
+/*    circle of advise     */ 
+.circle{
+    position: absolute;
+    bottom: 15px;
+    left: 7.7%;
+    top: 44.28vw;
+    width: 10.98vw;
+	height: 10.98vw;
+	background: white;
+	-moz-border-radius: 5.49vw;
+	-webkit-border-radius: 5.49vw;
+	border-radius: 5.49vw;
+}
+
+text {
+    fill: #151515;
+    font-family: Effra Trial Medium;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 44px;
+    letter-spacing: 0px;
+    /* or 275% */
+
+
+    animation: rotate 25s linear infinite;
+    transform-origin: 250px 250px;
+  }
+  
+.header  svg {
+    position: absolute;
+    left: 7.8%;
+    top: 44.2vw;
+    width: 11vw;
+    z-index: 100;
+  }
+  
+@keyframes rotate {
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+
+.circle img {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 10.98vw;
+	height: 10.98vw;
+}
+
+/* styles for calling service*/
+
+.options {
+    position: fixed;
+    z-index: 300;
+}
+
+.options img {
+    height: 5.58vh;
+    width: 6vh;
+}
+
+
+#call{
+    position: fixed;
+    top:78.992vh;
+    right: 0.74%;
+}
+#web {
+    position: fixed;
+    right: 0.74%;
+    top:86.43vh;
+}
+
+/* first section of the main part*/
+main {
+    width: 100%;
+}
+
+.created {
+    height: 65vw;
+}
+
+
+.created h1{
+    margin-left: 4%;
+    position: relative;
+    font-family:  'Sofia Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.66vw;
+    line-height: 4.39vw;
+    /* identical to box height, or 120% */
+    height: 7.06vw;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+}
+.created h1::before {
+  content:" ";
+  display: block;
+  height: 2px;
+  width: 3.66vw;
+  position: absolute;
+  top: 5.41vw;
+  left: 0;
+  background: #151515;
+}
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+    width: 100%;
+}
+
+.project {
+    width: 42%;
+    height: 37.99vw;
+    top: 70.35vw;
+}
+
+.project:first-child {
+    margin-left: 4.17%;
+    margin-right: 4.83vw;
+}
+
+.created-box {
+    position: absolute;
+    height: 26.6vw;
+}
+
+.design-type {
+    height: 29.64vw;
+    width: 42.02vw;
+}
+
+.vector {
+    position: absolute;
+    width: 10.9vw;
+    height: 10.9vw;
+    left: 35.74vw;
+    top: 24.23vw;
+    
+}
+
+.projects h2 {
+    position: absolute;
+    font-family:  'Sofia Sans Condensed', sans-serif;;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.56vw;
+    line-height: 4.39vw;
+    /* identical to box height, or 171% */
+    
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #151515;
+
+    top: 28.55vw;
+}
+
+.projects h2::before {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 3.66vw;
+    position: absolute;
+    left: 0;
+    background: #151515;
+  }
+
+
+
+
+
+  /* second section styles*/
+
+
+
+
+.demoabout {
+    box-sizing: border-box;
+    flex-direction: row;
+    left: 0%;
+    right: 0%;
+    height: 83.16vw;
+    
+    width: 100%;
+    background-color: #1C1C1C;
+}
+.demoabout h1{
+    position: absolute;
+    top: 109vw;
+    left: 4.17%;
+    padding: 0px;
+    margin: 0px;
+
+    font-family:  MostraNuovaW00-Regular;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.66vw;
+    line-height: 4.39vw;
+    /* identical to box height, or 120% */
+    
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #151515;
+}
+
+.demoabout h1::before {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 3.6vw;
+    position: absolute;
+    top: 120%;
+    left: 0;
+    background: #151515
+}
+
+.bio-container {
+    position: absolute;
+    top: 118.5vw;
+    width: 100%;
+    height: 80.52vw;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.designer {
+    flex-basis: 33%;
+    margin-left: 57px;
+    margin-right: 4.97vw;
+    margin-bottom: 19.98vw;
+}
+.designer img{
+    box-sizing: border-box;
+    width: 32.21vw;
+    height: 48.9vw;
+    margin-bottom: 2.63vw;
+}
+.bio {
+    flex-basis: 55%;
+    right: 4.17vw;
+    width: 54vw;
+    bottom: 5.7vw;
+}
+
+.image-container {
+    display: block;
+}
+.image-container img {
+    display: inline-block;
+    margin-right: 2.34vw;
+    height: 33.3vw;
+}
+
+.image-container img:first-child {
+    width: 35.06vw;
+}
+
+.image-container img:last-child {
+    margin-right: 0;
+    width: 14.93vw;
+}  
+
+.biotext {
+    padding-top: 3.29vw;
+}
+.biotext p {
+    font-family: 'Futura PT';
+    font-style: normal;
+    width: 93.16%;
+    font-weight: 400;
+    font-size: 1.61vw;
+    line-height: 2.04vw;
+    /* or 127% */
+    
+    
+    color: #B6B6B6;
+}
+
+.biotext h3 {
+    margin-bottom: 1.61vw;
+    margin-top: 0px;
+    font-family:  'Sofia Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.34vw;
+    line-height: 2.63vw;
+    /* or 112% */
+    
+    
+    color: #FFFFFF;
+}
+.designer h3 {
+    margin-top: 0;
+    margin-bottom: 1.39vw;
+
+    font-family:  'Sofia Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.98vw;
+    line-height: 2.63vw;
+    /* identical to box height, or 112% */
+    
+    
+    color: #FFFFFF;
+}
+.designer h4 {
+    margin: 0px;
+    margin-bottom: 2.78vw;
+    
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.61vw;
+    line-height: 2.04vw;
+    /* or 127% */
+    
+    
+    color: #B6B6B6;
+}
+
+.designer .whitelink {
+    width: 5.636vw;
+    height: 5.636vw;
+}
+
+/* 3 section styles */
+.uniq {
+    width: 100%;
+    height: 55.63vw;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.uniq h1 {
+    position: absolute;
+    left: 4.03vw;
+    right: 53.14vw;
+    margin-top: 5.85vw;
+
+    font-family:  'Sofia Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.709vw;
+    line-height: 4.39vw;
+    /* or 120% */
+    
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #151515;
+}
+
+.uniq h1::before {
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 3.66vw;
+    position: absolute;
+    top: 105%;
+    left: 0;
+    background: #151515
+}
+
+.container {
+    width: 91.8%;
+    height: 34vw;
+    margin-top: 19.61vw;
+    margin-left: 4.17%;
+    position: absolute  ;
+    box-sizing: border-box;
+    
+    display: flex;
+    overflow-x: auto;
+    grid-gap: 15px;
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+
+.items {
+    height: 30.15vw;
+    border-radius: 5px;
+    border: 1px solid rgba(242, 242, 242, 1);
+    flex: 0 0 24%;
+
+
+    transition: all 0.2s;
+}
+  
+  
+.icon-wrapper, .project-name {
+    display: block;
+}
+  
+  
+  
+.icon-wrapper {
+    position: absolute;
+    top: 3.22vw;
+    margin-left: 2.41vw;
+}
+
+.icon-wrapper img {
+    height: 4.24vw;
+}
+
+.project-name {
+    position: absolute;
+    height: 30.08vw;
+    margin-left: 2.27vw;
+}
+.project-name p {
+    position: absolute;
+    top: 15.72vw;
+    width: 17.27vw;
+    margin: 0px;
+
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.17vw;
+    line-height: 1.61vw;
+}
+  
+.project-name h5 {
+    position: absolute;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 0.952vw;
+    line-height: 2.63vw;
+    /* identical to box height, or 277% */
+    
+    letter-spacing: 2px;
+    top: 8.71vw;
+    width: 10.98vw;
+    text-transform: uppercase;
+    margin-top: 0px;
+    
+    color: #999999;
+}
+.project-name h4 {
+    position: absolute;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.318vw;
+    line-height: 1.75vw;
+    /* or 133% */
+    
+    width: 17.28vw;
+    top: 11.49vw;
+    margin: 0px;
+
+    text-transform: uppercase;
+    
+    color: #151515;
+}
+
+.items:hover {
+    border: 1px solid black;
+    box-shadow: 0 0 10px 5px #999999;
+    transition: 0.6s;
+}
+
+/* 4 section */
+.examples {
+    left: 0%;
+    right: 0%;
+
+    height: 100.5vw;
+    background: #1C1C1C;
+}
+
+.container-image  {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 77.23vw;
+    margin-top: 12vw;
+}
+  
+.box1 {
+    position: relative;
+    flex: 1;
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    left: 4.17%;
+
+    width: 50%;
+    height: 80vw;
+}
+  
+.box2 {
+    position: relative;
+    flex: 2;
+    flex-basis: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 77.23vw;
+}
+  
+
+.examples h1 {
+    position: relative;
+    top: 7.83vw;
+    margin-left: 4.17%;
+    margin-top: 0;
+
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.66vw;
+    line-height: 4.39vw;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.examples h1::before {
+    content:" ";
+    display: block;
+    position: absolute;
+    width: 3.66vw;
+    height: 0.22vw;
+    top: 120%;
+    
+    background: #FFFFFF;
+    opacity: 0.6;
+}
+
+.linkphoto {
+    width: 44.58vw;
+    height: 45.06vw;
+    margin-bottom: 2.34vw;
+    text-align: center;  
+    background-image: linear-gradient(180deg, rgba(24, 24, 24, 0.6) 60%, rgba(24,24,24,0.60) 60%),url("../images/linkphoto.png");
+    background-size: cover;
+}
+
+.linkphoto h2 {
+    position: absolute;
+    left: 11.63vw;
+    right: 18vw;
+    top: 14.49vw;
+    margin: 0px;
+    
+    font-family:  'Sofia Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2.635vw;
+    line-height: 3.07vw;
+    /* or 117% */
+
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.linkphoto p {
+    position: absolute;
+    left: 12.66vw;
+    margin: 0;
+    top: 21vw;
+    
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.318vw;
+    line-height: 1.9vw;
+    /* identical to box height, or 144% */
+    
+    text-align: center;
+    
+    color: #DEDEDE;
+}
+
+.linkphoto img {
+    position: absolute;
+    top: 25.47vw;
+    left: 19.54vw;
+    width: 5.56vw;
+    height: 5.56vw;
+}
+
+.min-photo1 {
+    flex: 1;
+    flex-basis: 45.655%;
+    position: absolute;
+    width: 44.58vw;
+    height: 29.28vw;
+} 
+
+.min-photo2{
+    margin-bottom: 2.34vw;
+    width: 44.58vw;
+    height: 29.28vw;
+}
+
+.large {
+    left: 0;
+    width: 44.58vw;
+    height: 45.06vw;
+
+
+}
+
+
+
+/* Ssection with advise */
+
+.project-form {
+
+    background-color: #1C1C1C;
+    width: 100%;
+    height: 40.9vw;
+}
+
+.project-form h1{
+    position: relative;
+    top: 7.83vw;
+    margin-left: 4.17%;
+    margin-top: 0;
+
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.66vw;
+    line-height: 4.39vw;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.project-form h1::before {
+    content:" ";
+    display: block;
+    position: absolute;
+    width: 3.66vw;
+    height: 0.22vw;
+    top: 120%;
+    
+    background: #FFFFFF;
+}
+
+.client {
+    position: relative;
+    top: -1%;
+    display: block;
+    width: 100%;
+    height: 40.9vw;
+    border: 0px;
+    background-color: #1C1C1C;
+}
+.client h1{
+    position: relative;
+    top: 7.83vw;
+    margin-left: 9.96%;
+    margin-top: 0;
+
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 3.66vw;
+    line-height: 4.39vw;
+    /* identical to box height, or 120% */
+    
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+}
+
+.client h1::before {
+    content:" ";
+    display: block;
+    position: absolute;
+    width: 3.66vw;
+    height: 0.22vw;
+    top: 120%;
+    
+    background: #FFFFFF;
+}
+
+.client img {
+
+    border: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10.41vw;
+    margin-left: 9.96%;
+}
+
+.input {
+    margin-top: 1.5vw;
+    margin-bottom: 1.5vw;
+    flex-basis: 40%;
+}
+
+form input, select {
+    background-color:  #1C1C1C;
+    border-style: none;
+    color: #ffff;
+    padding-bottom: 1.02vw;
+    border-bottom: 2px solid #ffff;
+
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.7vw;
+    line-height: 2.26vw;
+    /* identical to box height */
+    
+    letter-spacing: 0.08em;
+    outline: none;
+    width: 80%;
+}
+
+form input:first-child {
+    width: 23.8%;
+}
+
+form input:nth-child(2) {
+    margin: 1.46vw;
+    width: 14%;
+}
+
+form select{
+    width: 19.2%;
+}
+
+form button {
+    border: none;
+    position: relative;
+    left: -4%;
+    top: 1%;
+    text-align: center;
+    height: 15vw;
+    width: 15vw;
+
+    background-color: #1C1C1C;
+}
+button svg {
+    position: relative;
+    left: 0;
+    width: 13vw;
+}
+
+button svg text {
+    fill: white;
+    font-family: 'Sofia Sans Condensed', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 6vw;
+line-height: 3.22vw;
+letter-spacing: 0px;
+/* or 275% */
+
+    text-transform: uppercase;
+    animation: rotate 25s linear infinite;
+    transform-origin: 250px 250px;
+  }
+
+button img {
+    position: relative;
+
+    top: -71.5%;
+    width: 7.4vw;
+    height: 7.5vw;
+    background-color: transparent;
+}
+
+
+/* footer */
+
+
+
+
+footer {
+    height: 25vw;
+    
+    background: #D8D8D8;
+}
+.box {
+    display: flex;
+   
+    height: 17.8vw;
+    width: auto;
+    padding-top: 3.95vw;  
+}
+
+.about {
+    margin-left: 7.97%;
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+}
+
+.jobs {
+    flex: 1 ;
+    flex-basis: 14%;
+    width: auto;
+}
+
+.company {
+    flex: 1 ;
+    flex-basis: 10%;
+}
+
+.address {
+    flex: 1;
+    flex-basis: 24%;
+}
+
+.contact {
+    flex: 1;
+    flex-basis: 22%;
+    justify-content: left;
+}
+
+
+
+
+
+
+.about h4 {
+    margin: 0.73vw 0px;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.317vw;
+    line-height: 1.68vw;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    color: #151515;
+    
+    opacity: 0.4;
+}
+
+.about h4::before {
+    content:" ";
+    display: block;
+    position: relative;
+    width: 2.928vw;
+    height: 1px;
+    top: 2.41vw;
+    
+    background: #525252;
+    opacity: 0.6;
+}
+
+footer nav {
+    margin-top: 1.83vw;
+    top: auto;
+    left: auto;
+    width: 22%;
+    height: 13.6vw;
+}
+
+footer nav ul {
+    padding: 0px;
+    margin: 0;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+footer nav ul li{
+    height: 1.17vw;
+}
+
+footer nav ul li:nth-child(2) {
+   height: 1.17vw;
+    margin: 1.83vw 0px;
+}
+footer nav ul li a{
+    text-decoration: none;
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.17vw;
+    line-height: 1.6vw;
+    /* or 138% */
+    
+    text-transform: uppercase;
+    
+    color: #151515;
+}
+
+.address nav ul li:first-child {
+    height: 3.22vw;
+}
+
+
+.contact a h3 {
+    width: 11.27vw;
+    margin-top: 0px;
+    margin-bottom: 1.903vw;
+    padding:  0.84vw 4.02vw;
+    border: 1px solid #151515;
+}
+
+.contact a {
+    text-decoration: none;
+    font-family:  'Sofia Sans Condensed', sans-serif;
+    font-size: 1.244vw;
+    line-height: 1.46vw;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #151515;
+}
+
+.socmedia {
+    display: inline-block;
+}
+.socmedia img {
+    width: 2.85vw;
+    height: 2.85vw;
+}
+
+
+.socmedia img:nth-child(2) {
+    margin: 0px 0.73vw;
+}
+
+.abcdesign {
+    display: block;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+    
+    grid-column: 1;
+    grid-row: 3;
+    background-color: #D1D1D1;
+    height: 4.17vw;
+}
+
+.abcdesign p {
+    position: absolute;
+    margin: 1.24vw  5vw 1.53vw;
+
+    font-family: 'Futura PT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.02vw;
+    line-height: 1.31vw;
+    /* identical to box height */
+    
+    letter-spacing: 0.1em;
+    
+    color: #B5B5B5;
+    
+}
+
+
+
+/* for mobile version */
+
+@media (max-width: 821px) {
+    i.fa.fa-bars {
+        display: initial;
+        position: fixed;
+        right: 5px;
+        top: 5px;
+
+        color: #525252;
+        z-index: 20000;
+        height: 25px;
+        width: 25px;
+        font-size: 24px;
+        background-color: #ffff;
+        padding: 10px 10px 7px ;
+        text-align: center;
+
+        border: 4px solid #525252;
+        border-radius: 19.5px;
+    }
+
+    #menu-bar {
+        display: none;
+    }
+    .nav {
+        display: block;
+        position: fixed;
+        left: -100%;
+        top: 0; 
+
+        background-color: #343434 ;
+        width: 100%;
+        height: 100%;
+        z-index: 200;
+        overflow-y: hidden;
+
+        transition: all 0.5s;
+    }
+
+
+
+    .logo {
+        z-index: 20000;
+        height: 3.5vw;
+    }
+
+
+
+
+    #menu-bar:checked ~ .nav{
+        left: 0;
+        top: 0;
+        overflow: hidden;
+    }
+
+    header nav ul {
+        top: 70px;
+        width: 100%;
+    }
+
+    header nav ul li {
+        display: block;
+        width: 100%;
+        margin: 0px;
+        font-size: 1.3vw;
+        padding: 0px;
+        left: 0;
+        border-top: 1px solid white;
+    }
+
+    header nav ul li:first-child {
+        line-height: 7vw;
+        font-size: 3vw;
+        padding-left: 3%;
+    }
+
+    header nav ul li a{
+        margin-left: 3%;
+        font-size: 3vw;
+        line-height: 7vw;
+        width: 100%;
+    }
+
+    .dropdown {
+        position: relative;
+        width: 100%;
+        top: 0;
+        right: 0;
+        height: 14.97vw;
+    }
+
+    .dropdown ul {
+        margin: 0;
+        padding: 0;
+        top: 0;
+        width: 100%;
+        color: #ffff;
+        background-color: #343434   ;
+    }
+    .dropdown ul li:first-child {
+        padding: 0;
+        margin: 0;
+    }
+
+    .dropdown ul li {
+        border-top: 1px solid white;
+        border-bottom: none;
+    }
+
+    .dropdown ul li a {
+        margin-left: 20px;
+        color: #ffff;
+        font-size: 3vw;
+        line-height: 7vw;
+        width: auto;
+    }
+
+
+    /* far section 3 uniq cards*/
+    .uniq {
+        height:60vw;
+    }
+    .container {
+        height: 40vw;
+    }
+
+    .items {
+        height: 34vw;
+        flex: 0 0 33%;
+    }
+
+
+}
+
+@media (max-width: 426px) {
+    body {
+        background-color: #343434;
+        height:auto;
+    }
+
+    .header {
+        margin-top: 60px;
+        height: 52vh;
+    }
+    .logo {
+        position: absolute;
+        top: -40px;
+        width: 70%;
+        height: 30px;
+    }
+
+    .triangle {
+        top: 45.2vh;
+    }
+
+    .circle {
+        top: 45vh;
+        width: 50px;
+        height: 50px;
+    }
+
+    .circle img {
+        height: 10vh;
+        width: auto;
+        top:  -3vh;
+    }
+
+    .header svg {
+        left: 7.5%;
+        top: 42vh;
+        width: 10vh;
+    }
+
+    .header text {
+        font-size: 55px;
+    }
+
+    .name {
+        width: 200px;
+        height: 25px;
+        top: 17.5vw;
+    }
+
+    .main-text {
+        width: 280px;
+    }
+
+    .main-text h1 {
+        font-size: 35px;
+        margin-bottom: 10px;
+    }
+    .main-text p {
+        font-size: 25px;
+        line-height: 28px;
+        margin-top: 10px;
+    }
+
+    #call {
+        top: 85vh;
+        height: auto;
+    }
+
+    #web {
+        top: 92vh;
+        height: auto;
+    }
+
+    /* Section about architecture */
+    .created {
+        position: relative;
+        height: 90vh;
+        background-color: #ffff;
+
+    }
+
+    .projects {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .project {
+        left: 10%;
+        width: 80%;
+        height: 37vh;
+        margin: 0;
+    }
+
+    .project:first-child {
+        margin: 0;
+    }
+
+    .created-box {
+        left: 10%;
+        width: 80%;
+        height: 27vh;
+    }
+
+    .design-type {
+        width: 100%;
+        height: 100%;
+    }
+
+    .vector {
+        position: absolute;
+        left: 85%;
+        top: 80%;
+        width: 20%;
+        height: 20vw    ;
+    }
+
+
+    /*Settings to words */
+
+    .created h1{
+        font-size: 35px;
+        margin: 0;
+        padding: 15px 15px 20px;
+    }
+
+    .created h1::before {
+        top: 80%;
+        left: 4%;
+    }
+
+
+    .projects h2 {
+        position: relative;
+        top: 62%;
+        left: 10%;
+        font-size: 25px;
+        line-height: 60px;
+    }
+
+    .project h2::before {
+        top: 80%;
+    }
+
+    /* Section  about designer */
+    .demoabout {
+        position: relative;
+        height: 2100px;
+        top: 0;
+        flex-direction: column;
+    }
+
+    .bio-container {
+        position: relative;
+        top: -3%;
+        flex-direction: column;
+        height: 260vh;
+    }
+
+    .designer {
+        position: relative;
+        height: 60%;
+        margin: 0;
+    }
+
+    .designer img {
+        position: relative;
+        height: auto;
+        width: 95%;
+        left: 2.5%;
+    }
+
+    .designer h3 {
+        font-size: 9.5vw;
+        line-height: 11vw;
+        margin-left: 2.5%
+    }
+
+    .designer h4 {
+        font-size: 6.5vw;
+        line-height: 7vw;
+        margin-left: 2.5%;
+    }
+
+    .designer .whitelink {
+        display: none;
+        height: auto;
+        width: auto;
+    }
+
+    .bio {
+        top: 0;
+        right:2.5%;
+        left: 2.5%;
+        position: relative;
+        width: 95%;
+    }
+
+    .image-container img {
+        margin: 0%;
+    }
+
+    .image-container img:first-child {
+        height: auto;
+        width: 68%;
+    }
+
+    .image-container img:last-child {
+        height: auto;
+        width: 29%;
+    }
+
+    .biotext h3 {
+        font-size: 9.2vw;
+        line-height: 9.5vw;
+    }
+
+    .biotext p {
+        font-size: 20px;
+        line-height: 7vw;
+    }
+
+
+    .demoabout h1 {
+        position: relative;
+        top: -4%;
+        left: 0;
+        font-size: 7.52vw;
+        line-height: 40px;
+    }
+    .demoabout h1::before {
+        top: 100%;
+    }
+
+    /* Section with the steps */
+    .uniq {
+        position: relative;
+        top: 0;
+        height: 90vh;
+    }
+
+    .uniq h1 {
+        font-size: 8.32vw;
+        width: 90%;
+        line-height: 40px;    
+    }
+    .container {
+        height: 55vh;
+        margin-top: 20vh;
+    }
+
+    .items {
+        height: 53vh;
+        flex: 0 0 90%;
+    }
+
+    .icon-wrapper {
+        margin-left: 7%;
+    }
+
+    .icon-wrapper img{
+        height: auto;
+        width: auto;
+    }
+    .project-name {
+        margin-left: 7%;
+        width: 80%;
+    }
+
+    .project-name h5 {
+        position: relative;
+        top: 70%;
+        width: 80%;
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 36px;
+    }
+
+    .project-name h4 {
+        position: relative;
+        width: 90%;
+        top: 50%;
+        font-weight: 450;
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .project-name p {
+        position: relative;
+        top: 60%;
+        font-size: 19px;
+        line-height: 22px;
+        width: 95%;
+        height: 40%;
+    }
+
+    /* Section with projects and consultation */
+    .examples {
+        position: relative;
+        top: 0;
+        height: 200vh;
+    }
+
+    .examples h1{
+        font-size: 9.33vw;
+        line-height: 40px;
+
+    }
+
+    .examples h1::before {
+        top: 110%;
+        width: 35px;
+    }
+
+    .linkphoto {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .linkphoto h2{
+        font-family:  'Sofia Sans Condensed', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 36px;
+        line-height: 42px;
+        /* or 117% */
+        
+        text-align: center;
+        text-transform: uppercase;
+        
+        color: #FFFFFF;
+    }
+
+    .linkphoto p {
+        top: 35vw;
+
+        font-family: 'Futura PT';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        /* identical to box height, or 144% */
+        
+        text-align: center;
+        
+        color: #DEDEDE;
+    }
+
+    .linkphoto img {
+        position: relative;
+        left: 0;
+        top: 50vw;
+        width: auto;
+        height: auto;
+    }
+
+    .box1 {
+        left: 0;
+        width: 100%;
+        height: 90vh;
+    }
+
+    .min-photo1 {
+        width: 100%;
+        height: 40vh;
+    }
+
+    .container-image {
+        flex-direction: column;
+        height: 192vh;
+    }
+
+    .box2 {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .min-photo2 {
+        width: 100%;
+        height: 50vh;
+    }
+
+    .large {
+        width: 100%;
+        height: 50vh;
+    }
+
+    /* for section with form  */
+
+    .project-form {
+        height: 60vh;
+    }
+
+
+    .client h1{
+        font-size: 9.33vw;
+        line-height: 40px;
+    }
+    .input {
+        display: flex;
+        flex-direction: column;
+    }
+    form {
+        margin-top: 70px;
+    }
+    form input:first-child {
+        width: 90%;
+    }
+    form input:nth-child(2) {
+        margin: 0;
+        width: 90%;
+    }
+    form select {
+        width: 90%;
+    }
+
+    form input, select {
+        font-size: 24px;
+        line-height: 31px;
+    }
+
+    form button {
+        height: 30vw;
+        width: 150px;
+        margin-top: 15%;
+    }
+
+    form button img {
+        height: 70px;
+        width: 70px;
+        top: -105px;
+        right: 0%;
+    }
+
+    button svg{
+        width: 130px;
+    }
+
+    button svg text {
+        font-size: 75px;
+    }
+
+    /*Footer */
+    footer {
+        position: relative;
+        top: 0;
+        width: 100%;
+        height: 60vh;
+    }
+
+    footer nav {
+        left: auto;
+        width: 90%;
+        height: 20%;
+    }
+
+    footer nav ul li {
+        height: auto;
+        margin: 10px 0;
+    }
+
+    footer nav ul li:nth-child(2){
+        height: auto;
+        margin: 0%;
+    }
+
+    .box  {
+
+        flex-wrap: wrap;
+    }
+    .about {
+        margin-top: 20px;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .about h4 {
+        font-size: 20px;
+        width: 20;
+    }
+
+    .about h4::before {
+        left: 0;
+        top: 20px;
+    }
+
+    footer nav ul li a {
+        font-size: 15px;
+        line-height: 17px;
+    }
+
+
+
+    .jobs {
+        flex-basis: 40vw;
+        display: none;
+    }
+    
+    .company {
+        flex-basis: 35vw;
+        display: none;
+    }
+
+    .address {
+        height: 30vh;
+    }
+
+    .address nav ul li:first-child {
+        height: auto;
+    }
+
+    .contact {
+        height: 30vw;
+        text-align: center;
+    }
+
+    .contact a {
+        display: flex;
+        font-size: 22px;
+        line-height: 22px;
+        justify-content: center;
+    }
+
+    .contact a h3 {
+        justify-content: center;
+        padding-top: 10px;
+        width: 240px;
+        height: 30px;
+        font-size: 22px;
+    }
+
+    .socmedia {
+        display: flex;
+        flex-direction: row;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    .socmedia a:nth-child(2){
+        margin: 0 15px;
+    }
+
+    .socmedia img {
+        height: auto;
+        width: auto;
+    }
+
+    .abcdesign {
+        position: absolute;
+        bottom: 0%;
+        height: 45px;
+    }
+
+    .abcdesign p {
+        font-size: 20px;
+        margin-top: 8px;
+        line-height: normal;
+    }
+
+
+}
+
+    
